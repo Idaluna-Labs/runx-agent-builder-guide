@@ -3,9 +3,9 @@
   "claim_type": "public_support_docs",
   "project": "runx",
   "publisher": "Idaluna Labs",
-  "published_at": "2026-09-18T11:32:34Z",
+  "published_at": "2026-09-18T11:33:23Z",
   "summary": "Idaluna Labs published an original public walkthrough for agent builders explaining when to use runx (governed skill runtime with portable SKILL.md, authority narrowing, and sealed receipts), a concrete hello-world-to-business-ops workflow, and links to https://runx.ai and https://github.com/runxhq/runx.",
-  "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/README.md",
+  "public_url": "https://github.com/Idaluna-Labs/runx-agent-builder-guide/blob/main/README.md",
   "evidence_json_self": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/evidence.json",
   "report_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/report.md",
   "runx_link_found": true,
@@ -14,7 +14,7 @@
   "observations": [
     {
       "claim_type": "public_support_docs",
-      "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/README.md",
+      "public_url": "https://github.com/Idaluna-Labs/runx-agent-builder-guide/blob/main/README.md",
       "runx_link_found": true,
       "summary": "Human-readable walkthrough page published with concrete CLI workflow from hello-world seal path through business-ops gated signal handling.",
       "audience": "agent builders wiring Cursor/Claude Code/Codex to portable skills",
@@ -22,7 +22,7 @@
     },
     {
       "claim_type": "project_link_citation",
-      "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/README.md",
+      "public_url": "https://github.com/Idaluna-Labs/runx-agent-builder-guide/blob/main/README.md",
       "runx_link_found": true,
       "summary": "Walkthrough cites both https://runx.ai and https://github.com/runxhq/runx plus the agent entrypoint https://runx.ai/SKILL.md for discoverability.",
       "audience": "readers verifying primary sources",
@@ -30,7 +30,7 @@
     },
     {
       "claim_type": "concrete_workflow",
-      "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/README.md",
+      "public_url": "https://github.com/Idaluna-Labs/runx-agent-builder-guide/blob/main/README.md",
       "runx_link_found": true,
       "summary": "Includes runnable commands: npm install @runxhq/cli, runx skill ./examples/hello-world, runx history, and business-ops/sourcey/deep-research/issue-triage examples with approval-gate guidance.",
       "audience": "practitioners reproducing a first sealed receipt",
