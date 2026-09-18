@@ -1,0 +1,70 @@
+{
+  "claim_id": "frantic-goodwill-49-runx",
+  "claim_type": "public_support_docs",
+  "project": "runx",
+  "publisher": "Idaluna Labs",
+  "published_at": "2026-09-18T11:32:34Z",
+  "summary": "Idaluna Labs published an original public walkthrough for agent builders explaining when to use runx (governed skill runtime with portable SKILL.md, authority narrowing, and sealed receipts), a concrete hello-world-to-business-ops workflow, and links to https://runx.ai and https://github.com/runxhq/runx.",
+  "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/README.md",
+  "evidence_json_self": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/evidence.json",
+  "report_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/report.md",
+  "runx_link_found": true,
+  "audience": "agent builders, maintainers, future contributors evaluating governed skill execution",
+  "why_allowed_in_venue": "Original technical onboarding content posted to a stranger-reachable public documentation venue; educational, non-spam, no reciprocal links required, no secrets, useful to readers evaluating runx from public docs.",
+  "observations": [
+    {
+      "claim_type": "public_support_docs",
+      "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/README.md",
+      "runx_link_found": true,
+      "summary": "Human-readable walkthrough page published with concrete CLI workflow from hello-world seal path through business-ops gated signal handling.",
+      "audience": "agent builders wiring Cursor/Claude Code/Codex to portable skills",
+      "why_allowed_in_venue": "Public documentation paste/host intended for open technical reading; content is original guidance not marketing spam."
+    },
+    {
+      "claim_type": "project_link_citation",
+      "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/README.md",
+      "runx_link_found": true,
+      "summary": "Walkthrough cites both https://runx.ai and https://github.com/runxhq/runx plus the agent entrypoint https://runx.ai/SKILL.md for discoverability.",
+      "audience": "readers verifying primary sources",
+      "why_allowed_in_venue": "Attribution and primary-source links are normal and useful in technical writeups."
+    },
+    {
+      "claim_type": "concrete_workflow",
+      "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/README.md",
+      "runx_link_found": true,
+      "summary": "Includes runnable commands: npm install @runxhq/cli, runx skill ./examples/hello-world, runx history, and business-ops/sourcey/deep-research/issue-triage examples with approval-gate guidance.",
+      "audience": "practitioners reproducing a first sealed receipt",
+      "why_allowed_in_venue": "Operational how-to derived from public README/docs; helps maintainers onboard users without requiring private access."
+    },
+    {
+      "claim_type": "evidence_bundle",
+      "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/evidence.json",
+      "runx_link_found": true,
+      "summary": "Machine-readable evidence JSON published at a raw HTTPS URL documenting claim metadata, observations, audience, and venue justification for Frantic goodwill #49.",
+      "audience": "Frantic validators and future auditors",
+      "why_allowed_in_venue": "Structured evidence file is public, non-sensitive, and intended for verification."
+    },
+    {
+      "claim_type": "authenticity_report",
+      "public_url": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/report.md",
+      "runx_link_found": true,
+      "summary": "Companion markdown report lists what was posted, where it lives, and why the action is authentic public support rather than link spam.",
+      "audience": "reviewers checking goodwill authenticity",
+      "why_allowed_in_venue": "Transparency report for a public support action; no secrets or reciprocal spam."
+    }
+  ],
+  "min_evidence_items": 4,
+  "sources_consulted": [
+    "https://runx.ai",
+    "https://github.com/runxhq/runx",
+    "https://raw.githubusercontent.com/runxhq/runx/main/README.md",
+    "https://runx.ai/SKILL.md"
+  ],
+  "mirrors": {
+    "public_github": "https://github.com/Idaluna-Labs/runx-agent-builder-guide",
+    "public_html": "https://github.com/Idaluna-Labs/runx-agent-builder-guide/blob/main/README.md",
+    "public_raw": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/README.md",
+    "evidence_raw": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/evidence.json",
+    "report_raw": "https://raw.githubusercontent.com/Idaluna-Labs/runx-agent-builder-guide/main/report.md"
+  }
+}
